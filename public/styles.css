@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+#infoArea {
+    white-space: pre;
+    font-family: monospace;
+}
+
+table,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+table {
+    table-layout: fixed;
+    width: 600px;
+    height: 600px;
+}
+
+td {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
